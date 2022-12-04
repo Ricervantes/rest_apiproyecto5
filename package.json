@@ -1,0 +1,28 @@
+{
+  "name": "proyecto5",
+  "version": "1.0.0",
+  "description": "esta es la rest API para el proyecto 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricervantes/rest_apiproyecto5.git"
+  },
+  "author": "Rachel Ivette Cervantes Santoyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricervantes/rest_apiproyecto5/issues"
+  },
+  "homepage": "https://github.com/Ricervantes/rest_apiproyecto5#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
+  }
+}
